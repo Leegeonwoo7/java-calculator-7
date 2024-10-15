@@ -19,3 +19,25 @@
 
 ### 출력
 - 계산완료된 결과값을 출력한다.
+
+<hr>
+
+## Commit Message Conventions
+
+## 커밋메시지 포맷
+```
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+## type
+- feat: 기능 추가
+- fix: 버그 수정
+- docs: 문서 수정
+- style: 코드 형식 수정(세미콜론, 오타, 포맷팅)
+- refactor: 리팩터링
+- test: 테스트 추가
+- chore: 유지보수 관련 작업
