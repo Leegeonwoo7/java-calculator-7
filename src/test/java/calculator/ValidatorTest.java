@@ -71,7 +71,7 @@ class ValidatorTest {
     @DisplayName("커스텀 구분자를 사용한다 (구분자: 특수문자)")
     void customDelimiterBySpecialChar() {
         //given
-        String inputString = "//;\n4;2;1";
+        String inputString = "//;\\n4;2;1";
 
         //when //then
         validator.validate(inputString);
@@ -81,7 +81,7 @@ class ValidatorTest {
     @DisplayName("커스텀 구분자 사용한다 (구분자: 영문자)")
     void useCustomDelimiterByAlphabet() {
         //given
-        String inputString = "//d\n1d2d3";
+        String inputString = "//d\\n1d2d3";
 
         //when //then
         validator.validate(inputString);
