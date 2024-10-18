@@ -14,11 +14,11 @@ public class Validator {
         }
     }
 
-    private boolean isCustomDelimiter(String text) {
+    public boolean isCustomDelimiter(String text) {
         return text.matches(CUSTOM_DELIMITER_PATTERN);
     }
 
-    private boolean isDefaultDelimiter(String text) {
+    public boolean isDefaultDelimiter(String text) {
         return text.matches(DEFAULT_DELIMITER_PATTERN);
     }
 }
